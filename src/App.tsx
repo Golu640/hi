@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import styled from '@emotion/styled';
-import { motion } from 'framer-motion';
-import { HomePage, SorryPage, ForgivePage } from './pages';
+import HomePage from './pages/HomePage';
+import SorryPage from './pages/SorryPage';
+import ForgivePage from './pages/ForgivePage';
 
 const AppContainer = styled.div`
   min-height: 100vh;
